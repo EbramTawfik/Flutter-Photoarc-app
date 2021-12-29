@@ -32,7 +32,7 @@ class NotificationModel {
     timeAt = json['time_at'] ?? '';
     username = json['username'] ?? '';
     name = json['name'] ?? '';
-    model = PostModel.fromJson(json);
+    model = PostModel.fromJson(json['post']);
     avatarUrl = json['avatar_url'] ?? '';
   }
 
