@@ -20,8 +20,7 @@ class CreateUserRepo {
       "name": name,
       "bio": bio,
       "url": website,
-      "avatar_url": "",
-      "created_at": DateTime.now().toString(),
+      "avatar_url": ""
     };
 
     // logger.d(info);
